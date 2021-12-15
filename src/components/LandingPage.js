@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <main>
       <div
-        className="bg-white flex flex-col justify-center items-center relative text-center gap-16 bg-pink-100"
+        className="bg-white flex flex-col justify-center items-center relative text-center gap-16 bg-yellow-100"
         style={{ height: "calc(100vh - 5.75rem)" }}
       >
         <img
@@ -16,7 +16,7 @@ const LandingPage = () => {
           className="absolute left-0 bottom-8 w-56 lg:w-72 hidden md:block"
         />
         <h1 className="lg:text-5xl md: text-3xl sm: text-1xl font-black w-1/2">
-          Grow your business with Sarepay
+          Grow your business with SarePay
         </h1>
         <p className="w-1/2">
           Voog Next provides a constrained, purposeful set of typographic
@@ -86,7 +86,7 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="section3 flex flex-row px-28 py-14">
-        <div className="bg-blue-700 text-white rounded-tl-md rounded-bl-md px-8 py-20">
+        <div className="bg-blue-900 text-white rounded-tl-md rounded-bl-md px-8 py-20">
           <h1 className="text-2xl pb-5">Issue cards, create new businesses.</h1>
           <h6>Online Website and Mobile</h6>
           <p>
@@ -114,7 +114,7 @@ const LandingPage = () => {
           </p>
         </div>
       </div>
-      <div className="section4 flex flex-row px-28 py-14 bg-pink-100">
+      <div className="section4 flex flex-row px-28 py-14 bg-yellow-100">
         <div className="w-full  py-10">
           <h6>Online Website and Mobile </h6>
           <h4 className="font-black">Accept Payments anywhere</h4>

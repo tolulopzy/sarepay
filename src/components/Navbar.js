@@ -3,11 +3,16 @@ import {Link} from "react-router-dom";
 
 const  Navbar = () => {
     return(
-        <nav className="flex justify-between items-center h-16 bg-white text-black py-14 px-28 bg-pink-100">
+        <nav className="flex justify-between items-center h-16 bg-white text-black py-14 px-28 bg-yellow-100 sm: ">
         <Link to='/' className="p-2 w-max h-max text-sm bg-yellow-400 rounded-lg border border-blue-900 leading-none">
-        Sare <br/> pay
+        Sare <br/> Pay
         </Link> 
         <div>
+        <div className="px-4 cursor-pointer md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+        </div>
             <Link className="p-4" to='/solutions'>
             Our Solutions
             </Link>
