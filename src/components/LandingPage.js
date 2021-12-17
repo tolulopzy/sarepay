@@ -145,7 +145,7 @@ const LandingPage = () => {
         </div> */}
         
       </div>
-      <div className="text-center bg-pink-100 py-8">
+      <div className="text-center bg-yellow-100 py-8">
         <h3 className="text-2xl pb-5 font-bold">Grow your business with SarePay.</h3>
         <button className="bg-gray-800 rounded-md m-2 py-2 px-4 text-white">
           Create an account
